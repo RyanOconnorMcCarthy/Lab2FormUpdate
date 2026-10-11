@@ -1,5 +1,6 @@
 package com.example.lab2formupdate;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -35,6 +36,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void buttonPress(View view) {
         String user = name.getText().toString().trim();
-        Toast.makeText(this, "Thank you " +user+ " your request is being processed.", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(
+                MainActivity.this,
+                Message.class
+        );
+        intent.putExtra("name", user);
+        startActivity(intent);
+
     }
 }
