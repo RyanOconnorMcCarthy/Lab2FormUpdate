@@ -1,0 +1,19 @@
+commit 945e1227558cdc261778deb2f5281964edf143df
+Author: McCar163 <158161553+McCar163@users.noreply.github.com>
+Date:   Sun Oct 11 11:21:46 2026 +0100
+
+    Intent
+    
+    updated main to send intent and created message.java and activity_message
+
+commit 451e65cdcc4ebe2a98068d104277093eb90e4452
+Author: McCar163 <158161553+McCar163@users.noreply.github.com>
+Date:   Sun Oct 11 10:52:10 2026 +0100
+
+    added lab 1
+
+commit 763d2ebfb366b06aed65a0851475c4279fa4f8e9
+Author: McCar163 <158161553+McCar163@users.noreply.github.com>
+Date:   Wed Oct 7 12:55:08 2026 +0100
+
+    Initial commit
